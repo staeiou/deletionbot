@@ -3,7 +3,6 @@
 
 # In[6]:
 
-get_ipython().system('pip install markovify')
 import markovify
 
 # Tact function (c) Molly White, 2013-2016, released MIT License
@@ -14,7 +13,7 @@ import offensive
 
 # In[7]:
 
-with open ("titles.txt") as f:
+with open ("deleted-titles-1.txt") as f:
     deltext = f.read()
 
 
