@@ -13,7 +13,7 @@ import offensive
 
 # In[7]:
 
-with open ("deleted-titles-1.txt") as f:
+with open ("deleted_titles_all.txt") as f:
     deltext = f.read()
 
 
